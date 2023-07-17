@@ -1,0 +1,306 @@
+* {
+    Margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}
+th{
+    font-family: 'Poppins', sans-serif;
+}
+td{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.875rem;
+    color: white;
+    text-align: center;
+}
+
+
+.links-navegar{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: .3125rem .3125rem .3125rem gray;
+}
+
+.principio-pagina{
+    background-image: url(../assets/img/Background3.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.7;
+    color: whitesmoke;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1.875rem;
+    
+
+    .noticia-principal{
+        font-size: 1.25rem;
+    }
+
+    .ver-mas{
+        font-size: .9375rem;
+    }
+    text-align: left;
+    .principio-pagina-titulo{
+        margin-left: 2rem;
+    }
+    .figure-1{
+        position: relative;
+        margin-left: 100rem;
+    }
+    .imagen-encabezado-2{
+        position: absolute;
+        bottom: 3.65rem;
+        left: 10rem;
+    }
+    .imagen-encabezado{
+        position: relative;
+    }
+}
+
+.figure-1{
+    position: relative;
+    margin-left: 1700px;
+}
+.imagen-encabezado-2{
+    position: absolute;
+    bottom: 3.65rem;
+    left: 10rem;
+}
+.imagen-encabezado{
+    position: relative;
+}
+
+
+.cards{
+    height: 27rem;
+    width: 17rem;
+    background-color: rgb(4, 4, 128);
+    color: white;
+    line-height: 2rem;
+    margin: 1.25rem;
+}
+
+.cards-noticias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1.25rem;
+} 
+/* Hacer esto en todas las cards necesarias */
+
+.imagen-cards{
+    height: 17rem;
+    width: 14rem;
+    margin: 1.5625rem;
+    border-radius: 10%;
+}
+
+.cards-partidos{
+    height: 25rem;
+    width: 30rem;
+    margin-left: 3.125rem;
+}
+
+.posicion-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1.25rem;
+}
+
+.escudos{
+    color: black;
+}
+.imagen-escudo{
+    height: 8rem;
+    width: 8rem;
+}
+
+.grids-jugador-destacado{
+    display: grid;
+    width: 100%;
+    height: 50%;
+    grid-template: repeat(2, 2) 4.125rem  / repeat(2, 2) 10rem;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "imagen parrafo parrafo"
+    "imagen parrafo parrafo"
+    ;
+    gap: .625rem;
+}
+
+.estadisticas{
+    margin-bottom: 1.25rem;
+}
+
+.cardstienda{
+    height: 25rem;
+    width: 17rem;
+    margin-left: 3.125rem;
+    margin-bottom: 4rem;
+}
+.descripcion-tienda{
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+}
+.redes{
+    height: 2rem;
+    width: 2rem;
+    float: right;
+}
+
+.imagen-equipo{
+    height: 17rem;
+    width: 14rem;
+    margin-left: 1.5625rem;
+}
+
+
+/* Empieza Noticias */
+
+.grids-noticia{
+    display: grid;
+    width: 100%;
+    height: 50%;
+    grid-template: repeat(2, 2) 4.125rem  / repeat(2, 2) 10rem;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "imagen parrafo parrafo"
+    "imagen parrafo parrafo"
+    ;
+}
+
+.titulo-noticia{
+    grid-area: titulo;
+    font-weight: 700;
+}
+
+.imagen-noticias{
+    grid-area: imagen;
+    height: 15rem;
+    width: 20rem;
+    margin-left: 1.25rem;
+}
+
+.parrafos-noticias{
+    grid-area: parrafo;
+    text-align: justify;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: rgb(5, 5, 187);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Empieza Equipo */
+
+.jugadores-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.jugador-card {
+    width: 100%;
+}
+
+.jugadores{
+    height: 12rem;
+    width: 10rem;
+}
+
+/* Empieza Calendario */
+
+.partido-resumen{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.cards-calendario{
+    height: 25rem;
+    width: 30rem;
+    margin-left: 3.125rem;
+}
+
+.parrafo-partido{
+    text-align: justify;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Empieza Tienda */
+
+.lista-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1.25rem;
+}
+
+.productos{
+    margin: 1rem;
+}
+
+
+footer{
+    background-color: darkblue;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.875rem;
+    color: white;
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.25rem;
+}
+
+
+/* Desktop */
+@media (max-width:1024px){
+
+}
+
+/* Tablet */
+@media (max-width:768px){
+
+}
+
+/* Phone */
+@media (max-width:320px){
+
+}
