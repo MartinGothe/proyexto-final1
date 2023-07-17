@@ -74,18 +74,6 @@ header{
     .principio-pagina-titulo{
         margin-left: 2rem;
     }
-    .figure-1{
-        position: relative;
-        margin-left: 100rem;
-    }
-    .imagen-encabezado-2{
-        position: absolute;
-        bottom: 3.65rem;
-        left: 10rem;
-    }
-    .imagen-encabezado{
-        position: relative;
-    }
 }
 
 .figure-1{
@@ -128,9 +116,9 @@ header{
 }
 
 .cards-partidos{
-    height: 25rem;
+    height: 20rem;
     width: 30rem;
-    margin-left: 3.125rem;
+    margin-left: 1rem;
 }
 
 .posicion-cards{
@@ -250,8 +238,8 @@ header{
 }
 
 .cards-calendario{
-    height: 25rem;
-    width: 30rem;
+    height: 15rem;
+    width: 20rem;
     margin-left: 3.125rem;
 }
 
@@ -301,6 +289,58 @@ footer{
 }
 
 /* Phone */
-@media (max-width:320px){
+@media (max-width: 500px) {
+    .principio-pagina {
+        height: 20rem;
+        font-size: 1.5rem;
+    }
 
-}
+    .noticia-principal {
+        font-size: 1rem;
+    }
+
+    .ver-mas {
+        font-size: .75rem;
+    }
+
+    .principio-pagina-titulo {
+        margin-left: 1rem;
+    }
+
+    .grids-jugador-destacado {
+        grid-template: repeat(2, 2) 3.125rem / repeat(2, 1fr);
+        gap: .3125rem;
+    }
+
+    .grids-noticia {
+        grid-template: repeat(2, 2) 4.125rem / 1fr;
+        grid-template-areas:
+            "titulo"
+            "imagen"
+            "parrafo";
+    }
+    }
+
+    /* Medidas Alternativas */
+    @media (max-width: 700px) {
+        .partido-resumen {
+            display: block;
+        }
+    
+        .cards-calendario {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .parrafo-partido {
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+    }
+
+    @media (max-width: 660px) {
+        .jugadores {
+            height: 8rem;
+            width: 6.67rem;
+        }
+    }
