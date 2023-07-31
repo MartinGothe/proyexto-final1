@@ -1,0 +1,19 @@
+footer {
+    background-color: darkblue;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.875rem;
+    color: white;
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.25rem;
+    
+    a {
+        img.redes {
+            height: 2rem;
+            width: 2rem;
+            float: right;
+            }
+        }
+    }
