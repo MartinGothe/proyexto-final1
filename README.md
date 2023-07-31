@@ -1,7 +1,8 @@
 #Proyecto Desarrollo web
 >Este proyecto es para el curso de Desarrollo Web de CoderHouse
 
-[![](https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg)](http://https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg)
+[![](https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg)](http://https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg)\
+
 ##Lenguajes aplicados
 -HTML
 -CSS
