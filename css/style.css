@@ -303,20 +303,24 @@ div.container {
   main .grids-noticia {
     display: grid;
     justify-items: center;
-    width: 100%;
+    width: 90%;
     height: 50%;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-template-areas: "titulo" "imagen" "parrafo"; }
+  main h2.titulo-noticia {
+    text-align: center; }
   main img.imagen-noticias {
     grid-area: imagen;
     height: 7rem;
-    width: 100%;
+    width: 90%;
     margin-left: 1rem; }
   main p.parrafos-noticias {
-    font-size: 0.9rem;
-    width: 100%;
-    font-family: 'Poppins', sans-serif; } }
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem; } }
 
 /* Phone */
 @media (max-width: 500px) {
