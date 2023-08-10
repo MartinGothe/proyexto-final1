@@ -286,22 +286,6 @@ div.container {
 
 /* Desktop */
 /* Tablet */
-/* Phone */
-@media (max-width: 500px) {
-  .principio-pagina {
-    height: 20rem;
-    font-size: 1.5rem; }
-  .noticia-principal {
-    font-size: 1rem; }
-  .ver-mas {
-    font-size: .75rem; }
-  .principio-pagina-titulo {
-    margin-left: 1rem; }
-  .grids-jugador-destacado {
-    grid-template-columns: 1fr;
-    gap: 0.3125rem; } }
-
-/* Medidas Alternativas */
 @media (max-width: 768px) {
   main .partido-resumen {
     display: block; }
@@ -333,3 +317,18 @@ div.container {
     font-size: 0.9rem;
     width: 100%;
     font-family: 'Poppins', sans-serif; } }
+
+/* Phone */
+@media (max-width: 500px) {
+  .principio-pagina {
+    height: 20rem;
+    font-size: 1.5rem; }
+  .noticia-principal {
+    font-size: 1rem; }
+  .ver-mas {
+    font-size: .75rem; }
+  .principio-pagina-titulo {
+    margin-left: 1rem; }
+  .grids-jugador-destacado {
+    grid-template-columns: 1fr;
+    gap: 0.3125rem; } }
