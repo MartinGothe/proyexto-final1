@@ -32,6 +32,7 @@
     .grids-noticia {
         display: grid;
         justify-items:center;
+        box-sizing:border-box;
         width: 90%;
         height: 50%;
         grid-template-columns: 1fr;
@@ -44,13 +45,17 @@
 
     h2.titulo-noticia {
         text-align: center;
+        width: 90%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
-    
+
     img.imagen-noticias {
         grid-area: imagen;
         height: 7rem;
-        width: 90%;
+        width: 100%;
         margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     p.parrafos-noticias {
