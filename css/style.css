@@ -299,23 +299,37 @@ div.container {
     margin-left: 1rem; }
   .grids-jugador-destacado {
     grid-template-columns: 1fr;
-    gap: 0.3125rem; }
-  .grids-noticia {
-    grid-template: repeat(2, 2) 4.125rem/1fr;
-    grid-template-areas: "titulo" "imagen" "parrafo"; } }
+    gap: 0.3125rem; } }
 
 /* Medidas Alternativas */
 @media (max-width: 768px) {
-  .partido-resumen {
+  main .partido-resumen {
     display: block; }
-  .cards-calendario {
+  main .cards-calendario {
     width: 100%;
     margin-left: 0; }
-  .parrafo-partido {
+  main .parrafo-partido {
     margin-right: 1rem;
     margin-left: 1rem; } }
 
 @media (max-width: 660px) {
-  .jugadores {
+  main .jugadores {
     height: 8rem;
-    width: 6.67rem; } }
+    width: 6.67rem; }
+  main .grids-noticia {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    height: 50%;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: "titulo" "imagen" "parrafo"; }
+  main img.imagen-noticias {
+    grid-area: imagen;
+    height: 7rem;
+    width: 100%;
+    margin-left: 1rem; }
+  main p.parrafos-noticias {
+    font-size: 0.9rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; } }

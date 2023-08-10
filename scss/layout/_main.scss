@@ -374,19 +374,13 @@ div.container {
         gap: 0.3125rem;
     }
 
-    .grids-noticia {
-        grid-template: repeat(2, 2) 4.125rem / 1fr;
-        grid-template-areas:
-            "titulo"
-            "imagen"
-            "parrafo";
-    }
-
+    
 
     }
 
     /* Medidas Alternativas */
     @media (max-width: 768px) {
+        main{
         .partido-resumen {
             display: block;
         }
@@ -401,10 +395,39 @@ div.container {
             margin-left: 1rem;
         }
     }
+    }
 
     @media (max-width: 660px) {
+        main{
         .jugadores {
             height: 8rem;
             width: 6.67rem;
+        }
+
+        .grids-noticia {
+            display: grid;
+            justify-items:center;
+            width: 100%;
+            height: 50%;
+            grid-template-columns: 1fr;
+            grid-auto-rows: auto;
+            grid-template-areas: 
+            "titulo"
+            "imagen"
+            "parrafo";
+        }
+
+        img.imagen-noticias {
+            grid-area: imagen;
+            height: 7rem;
+            width: 100%;
+            margin-left: 1rem;
+        }
+
+        p.parrafos-noticias {
+            font-size: 0.9rem;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+        }
         }
     }
