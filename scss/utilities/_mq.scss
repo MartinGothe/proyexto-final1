@@ -76,7 +76,7 @@
     }
 
 /* Phone */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .principio-pagina {
         height: 20rem;
         font-size: 1.5rem;
@@ -100,12 +100,20 @@
     }
     }
 
-    @media (max-width: 440px) {
+    @media (max-width: 500px) {
+        .partido-resumen {
+            .cards-partidos {
+                width: auto;
+                margin-bottom: 1.5rem;
+            }
+            }
         main{
         .imagen-escudo-plantel{
             margin-left: 0.7rem;
             margin-right: 0.5rem;
         }
         }
+        
         }
+
     

@@ -224,7 +224,6 @@ main .jugadores-container {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px; }
   main .jugadores-container .jugador-card {
-    width: 100%;
     margin: 1.25rem; }
     main .jugadores-container .jugador-card img.jugadores {
       height: 12rem;
@@ -370,7 +369,7 @@ div.container {
     width: 1rem; } }
 
 /* Phone */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .principio-pagina {
     height: 20rem;
     font-size: 1.5rem; }
@@ -384,7 +383,10 @@ div.container {
     grid-template-columns: 1fr;
     gap: 0.3125rem; } }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
+  .partido-resumen .cards-partidos {
+    width: auto;
+    margin-bottom: 1.5rem; }
   main .imagen-escudo-plantel {
     margin-left: 0.7rem;
     margin-right: 0.5rem; } }
