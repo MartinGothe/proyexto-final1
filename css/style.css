@@ -11,7 +11,7 @@ header {
   color: white;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); }
-  header .links-navegar {
+  header .links-navegar .links {
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -57,7 +57,8 @@ h1, h2, h3, h4, h5, p, a, th, td {
   .principio-pagina .noticia-principal {
     font-size: 1.25rem; }
   .principio-pagina .ver-mas {
-    font-size: .9375rem; }
+    font-size: .9375rem;
+    text-decoration: none; }
   .principio-pagina .principio-pagina-titulo {
     margin-left: 2rem; }
 
@@ -171,6 +172,7 @@ main .grids-noticia {
   grid-template-areas: "titulo titulo titulo" "imagen parrafo parrafo" "imagen parrafo parrafo"; }
   main .grids-noticia h2.titulo-noticia {
     grid-area: titulo;
+    text-decoration: underline;
     font-weight: 700; }
   main .grids-noticia img.imagen-noticias {
     grid-area: imagen;
@@ -352,7 +354,7 @@ div.container {
     margin-right: 1rem; }
   main .grids-noticia img.imagen-noticias {
     grid-area: imagen;
-    height: 14rem;
+    height: 20rem;
     width: 100%;
     margin-left: 1rem;
     margin-right: 1rem; }

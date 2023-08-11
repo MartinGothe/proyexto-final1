@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -28,6 +29,7 @@ h1, h2, h3, h4, h5, p, a, th, td {
 
     .ver-mas {
         font-size: .9375rem;
+        text-decoration: none;
     }
 
         text-align: left;
@@ -181,6 +183,7 @@ main {
 
         h2.titulo-noticia {
             grid-area: titulo;
+            text-decoration: underline;
             font-weight: 700;
         }
 

@@ -11,10 +11,13 @@ header {
     text-shadow: $text-shadow;
 
     .links-navegar {
+        .links{
         text-decoration: none;
         color: white;
         font-weight: 700;
         text-align: center;
         text-shadow: .3125rem .3125rem .3125rem gray;
     }
+    }
 }
+
