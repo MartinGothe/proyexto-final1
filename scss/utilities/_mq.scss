@@ -5,7 +5,7 @@
 
 /* Tablet */
 @media (max-width:768px){
-    main{
+    
         .partido-resumen {
             display: block;
         }
@@ -20,7 +20,7 @@
             margin-left: 1rem;
         }
     }
-}
+
 
 @media (max-width: 660px) {
     main{
@@ -65,6 +65,13 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .carrito{
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .imagen-carrito{
+        width: 1rem;
+    }
     }
     }
 
@@ -93,5 +100,12 @@
     }
     }
 
-
+    @media (max-width: 440px) {
+        main{
+        .imagen-escudo-plantel{
+            margin-left: 0.7rem;
+            margin-right: 0.5rem;
+        }
+        }
+        }
     
