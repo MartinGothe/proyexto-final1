@@ -82,7 +82,9 @@ h1, h2, h3, h4, h5, p, a, th, td {
     margin: 1.5625rem;
     border-radius: 10%; }
   .cards .titulo-cards {
-    margin: 0.625rem; }
+    margin: 0.625rem;
+    text-decoration: none;
+    text-decoration: underline; }
 
 .cards-noticias {
   display: flex;

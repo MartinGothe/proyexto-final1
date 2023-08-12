@@ -3,8 +3,7 @@
 
 [![](https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg)](http://https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg)
 
-Profesor: Maximiliano Cardenas
-Tutor: Yeison Rodriguez
+Profesor: Maximiliano Cardenas; Tutor: Yeison Rodriguez
 
 ##Lenguajes aplicados
 -HTML
