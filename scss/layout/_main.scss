@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, p, a, th, td {
     .ver-mas {
         font-size: .9375rem;
         text-decoration: none;
+        color: white;
+        text-decoration: underline;
+        &:hover {
+            color: rgb(0, 81, 255);
+        }
     }
 
         text-align: left;
