@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   Margin: 0;
   padding: 0;
@@ -99,6 +98,7 @@ h1, h2, h3, h4, h5, p, a, th, td {
     height: 20rem;
     width: 30rem;
     margin-left: 1rem;
+    margin-bottom: 3rem;
     border-right: 1px solid #afafaf; }
     .posicion-cards .cards-partidos .escudos {
       color: black; }
@@ -112,26 +112,6 @@ h1, h2, h3, h4, h5, p, a, th, td {
   height: 50%;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.625rem; }
-  .grids-jugador-destacado div h3 {
-    /* Estilos para "Jugador destacado" */
-    padding: 0rem; }
-  .grids-jugador-destacado div img {
-    /* Estilos para la imagen */
-    padding: 0rem; }
-  .grids-jugador-destacado div h2 {
-    /* Estilos para "#9" */
-    padding: 0rem; }
-  .grids-jugador-destacado div h1 {
-    /* Estilos para "Michael Santos" */
-    padding: 0rem; }
-  .grids-jugador-destacado div h4 {
-    /* Estilos para "Delantero" */
-    padding: 0rem; }
-  .grids-jugador-destacado div h5 {
-    /* Estilos para el párrafo de información */
-    padding: 0rem; }
-  .grids-jugador-destacado div .estadisticas {
-    margin-bottom: 1.25rem; }
 
 .posicion-cards {
   display: flex;
@@ -186,7 +166,8 @@ main .grids-noticia {
     margin-left: 1rem;
     color: #0505bb;
     font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif; }
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem; }
 
 /* Empieza PARTIDOS */
 .partido-resumen {
@@ -226,7 +207,8 @@ main .jugadores-container {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px; }
   main .jugadores-container .jugador-card {
-    margin: 1.25rem; }
+    margin: 1.25rem;
+    margin-left: 4rem; }
     main .jugadores-container .jugador-card img.jugadores {
       height: 12rem;
       width: 10rem; }
@@ -261,6 +243,8 @@ main .carrito {
   transition: background-color 0.3s; }
   main .carrito:hover {
     background-color: #0056b3; }
+  main .carrito:active {
+    background-color: white; }
 
 main .imagen-carrito {
   display: block;

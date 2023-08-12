@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, p, a, th, td {
         height: $tamanioCardsPartidos;
         width: 30rem;
         margin-left: $marginCardsPartidos;
+        margin-bottom: 3rem;
         border-right: 1px solid $colorBorde;
 
         .escudos {
@@ -95,42 +96,6 @@ h1, h2, h3, h4, h5, p, a, th, td {
     height: $alturaGrid;
     grid-template-columns: repeat($columnasGrid, 1fr);
     gap: $gapSize;
-
-    div {
-        h3 {
-            /* Estilos para "Jugador destacado" */
-            padding: 0rem;
-        }
-
-        img {
-            /* Estilos para la imagen */
-            padding: 0rem;
-        }
-
-        h2 {
-            /* Estilos para "#9" */
-            padding: 0rem;
-        }
-
-        h1 {
-            /* Estilos para "Michael Santos" */
-            padding: 0rem;
-        }
-
-        h4 {
-            /* Estilos para "Delantero" */
-            padding: 0rem;
-        }
-
-        h5 {
-            /* Estilos para el párrafo de información */
-            padding: 0rem;
-        }
-
-        .estadisticas {
-            margin-bottom: 1.25rem;
-        }
-    }
 }
 
 .posicion-cards{
@@ -202,6 +167,7 @@ main {
             color: rgb(5, 5, 187);
             font-size: 1.2rem;
             font-family: 'Poppins', sans-serif;
+            margin-bottom: 3rem;
         }
     }
 }
@@ -262,6 +228,7 @@ main {
         grid-gap: 20px;
         .jugador-card {
             margin: $jugadoresCardMargin;
+            margin-left: 4rem;
             img.jugadores {
                 height: $jugadoresImagenAltura;
                 width: $jugadoresImagenAnchura;
@@ -304,6 +271,9 @@ main {
         
         &:hover {
             background-color: #0056b3;
+        }
+        &:active {
+            background-color: white;
         }
     }
     .imagen-carrito{

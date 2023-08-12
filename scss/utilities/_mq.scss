@@ -100,20 +100,18 @@
     }
     }
 
-    @media (max-width: 500px) {
-        .partido-resumen {
-            .cards-partidos {
+@media (max-width: 500px) {
+    .partido-resumen {
+        .cards-partidos {
                 width: auto;
                 margin-bottom: 1.5rem;
+        }
             }
-            }
-        main{
+    main{
         .imagen-escudo-plantel{
             margin-left: 0.7rem;
             margin-right: 0.5rem;
         }
-        }
-        
-        }
+    }
+}
 
-    
