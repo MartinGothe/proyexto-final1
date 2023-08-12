@@ -292,6 +292,8 @@ main .imagen-carrito {
       margin-top: 10px; }
       .lista-productos .productos button:hover {
         background-color: gray; }
+      .lista-productos .productos button:active {
+        background-color: green; }
 
 div.container {
   max-width: 600px;
