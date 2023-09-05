@@ -46,6 +46,12 @@ h1, h2, h3, h4, h5, p, a, th, td {
 
 .titulos{
     font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
+    &:hover {
+        color: rgb(0, 81, 255);
+    }
 }
 
 .cards {
@@ -53,6 +59,7 @@ h1, h2, h3, h4, h5, p, a, th, td {
     width: $tamanioImagen;
     background-color: $colorFondoCards;
     color: $colorTextoCards;
+
     line-height: 2rem;
     margin: 1.25rem;
 
@@ -293,32 +300,34 @@ main {
 .lista-productos {
     @include flex;
 
-    .productos {
+    .producto {
         margin: $espaciadoProductos;
 
-        .imagen-cards{
+        .imagen-cards {
             height: 17rem;
             width: 14rem;
             margin: 1.5625rem;
             border-radius: 10%;
-            }
-            button {
-                background-color: $colorBoton;
-                color: white;
-                padding: 10px 20px;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                font-size: 16px;
-                margin-top: 10px;
+        }
 
-                &:hover {
-                    background-color: gray;
-                }
-                &:active {
-                    background-color: green;
-                }
+        button {
+            background-color: $colorBoton;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+
+            &:hover {
+                background-color: gray;
             }
+
+            &:active {
+                background-color: green;
+            }
+        }
     }
 }
 

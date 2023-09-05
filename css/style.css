@@ -9,14 +9,21 @@ header {
   padding: 1.875rem;
   color: white;
   text-align: center; }
-  header .links-navegar .links {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: underline; }
-    header .links-navegar .links:hover {
-      color: #0051ff; }
+  header nav ul.links-navegar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    header nav ul.links-navegar li {
+      display: inline;
+      margin-right: 10px; }
+      header nav ul.links-navegar li .links {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: underline; }
+        header nav ul.links-navegar li .links:hover {
+          color: #0051ff; }
 
 footer {
   background-color: darkblue;
@@ -67,7 +74,12 @@ h1, h2, h3, h4, h5, p, a, th, td {
     margin-left: 2rem; }
 
 .titulos {
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  text-decoration: underline; }
+  .titulos:hover {
+    color: #0051ff; }
 
 .cards {
   height: 27rem;
@@ -265,14 +277,14 @@ main .imagen-carrito {
   flex-wrap: wrap;
   justify-content: space-evenly;
   row-gap: 1.25rem; }
-  .lista-productos .productos {
+  .lista-productos .producto {
     margin: 1.25rem; }
-    .lista-productos .productos .imagen-cards {
+    .lista-productos .producto .imagen-cards {
       height: 17rem;
       width: 14rem;
       margin: 1.5625rem;
       border-radius: 10%; }
-    .lista-productos .productos button {
+    .lista-productos .producto button {
       background-color: #1E56A0;
       color: white;
       padding: 10px 20px;
@@ -281,9 +293,9 @@ main .imagen-carrito {
       cursor: pointer;
       font-size: 16px;
       margin-top: 10px; }
-      .lista-productos .productos button:hover {
+      .lista-productos .producto button:hover {
         background-color: gray; }
-      .lista-productos .productos button:active {
+      .lista-productos .producto button:active {
         background-color: green; }
 
 div.container {
